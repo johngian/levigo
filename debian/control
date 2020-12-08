@@ -1,0 +1,17 @@
+Source: golang-github-jmhodges-levigo
+Priority: optional
+Maintainer: Yiannis Giannelos <jgiannelos@wikimedia.org>
+Uploaders: Yiannis Giannelos <jgiannelos@wikimedia.org>
+Build-Depends: debhelper (>= 11),
+               dh-golang,
+               golang-any,
+               libleveldb-dev
+Standards-Version: 4.2.1
+Homepage: https://github.com/jmhodges/levigo
+XS-Go-Import-Path: github.com/jmhodges/levigo
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-jmhodges-levigo-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: levigo is a Go wrapper for LevelDB

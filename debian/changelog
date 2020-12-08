@@ -1,0 +1,5 @@
+golang-github-jmhodges-levigo (1.0.0+git20191214.ed89ec7-1) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- Yiannis Giannelos <jgiannelos@wikimedia.org>  Thu, 03 Dec 2020 12:34:30 +0000
